@@ -1,0 +1,5 @@
+node_modules
+dist/*
+.vscode/*
+./swc/*
+package-lock.json

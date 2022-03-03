@@ -1,0 +1,8 @@
+{
+  "extends": "./common.tsconfig.json",
+  "compilerOptions": {
+    "composite": true
+  },
+  "include": ["src/common/**/*.ts", "src/common/**/*.d.ts", "src/server/**/*.ts", "src/server/**/*.d.ts"],
+  "exclude": ["node_modules"]
+}

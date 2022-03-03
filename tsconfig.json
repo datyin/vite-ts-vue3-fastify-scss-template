@@ -1,0 +1,20 @@
+{
+  "compilerOptions": {
+    "target": "ESNext",
+    "useDefineForClassFields": true,
+    "module": "ESNext",
+    "moduleResolution": "node",
+    "strict": true,
+    "removeComments": true,
+    "jsx": "preserve",
+    "sourceMap": true,
+    "resolveJsonModule": true,
+    "esModuleInterop": true,
+    "lib": ["ESNext"]
+  },
+  "references": [
+    { "path": "./vite.tsconfig.json" },
+    { "path": "./client.tsconfig.json" },
+    { "path": "./server.tsconfig.json" }
+  ]
+}

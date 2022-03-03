@@ -1,0 +1,8 @@
+{
+  "extends": "./common.tsconfig.json",
+  "compilerOptions": {
+    "composite": true,
+    "lib": ["ESNext", "DOM"]
+  },
+  "include": ["src/common/**/*.ts", "src/common/**/*.d.ts", "src/client/**/*.ts", "src/client/**/*.d.ts"]
+}
